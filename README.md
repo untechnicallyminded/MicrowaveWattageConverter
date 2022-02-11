@@ -1,6 +1,8 @@
 # MicrowaveWattageConverter
 Calculates cooking time should your microwave be a different wattage to the one on the packet.
 
+USAGE
+
 The program takes the following arguments: 
 
 --yourmic XXX where XXX is the wattage of your microwave
