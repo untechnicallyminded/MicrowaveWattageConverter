@@ -11,12 +11,16 @@
 
 import argparse
 import time
+import os
+
+# Clear the terminal to give a fresh screen.
+os.system('cls' if os.name == 'nt' else 'clear')
 
 # Initiate the argument parser and specify the
 # accepted arguments.
 
 parser = argparse.ArgumentParser(
-    prog="Mircowave Wattage Converter",
+    prog="mwc",
     description='Microwave Wattage Converter',
     epilog=
     "Welcome to the microwave wattage calculator, use this to enter in your settings and let the program calculate how long you should cook for."
